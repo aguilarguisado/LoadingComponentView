@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">LoadingComponentView</string>
+    <string name="backgroundImage">Background Images</string>
+    <string name="blockingAnimation">Blocking mode</string>
+    <string name="nonBlockingAnimation">Non Blocking mode</string>
+
+</resources>
