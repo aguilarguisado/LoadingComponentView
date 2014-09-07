@@ -1,9 +1,13 @@
 Loading Component View
 ======
 **Loading Component View** is a customizable Android component for long background tasks.
+
 With this component you can define several phases with associated frames and the component will be showing the frames.
+
 The use is very easy: update the component with the name of the phase, the text to show and the percentage (referenced to 100).
-You can also define the mode (blocking/not blocking). In blocking mode, the phases will show all frames even if the long task has finished. In not blocking mode, when a new phased arrives, the phase before is finished automatically.
+
+You can also define the mode (blocking/not blocking). In **blocking mode**, the phases will show all frames even if the long task has finished. In **not blocking mode**, when a new phased arrives, the phase before is finished automatically.
+
 In addition, you're allowed to customize the millis between frames and the default image (for phases without backgroundImages). All of this from the constructor of the handler.
 
 
@@ -51,7 +55,9 @@ In addition, you're allowed to customize the millis between frames and the defau
 ###Use
 * Whenever you want to update the animation, just call the **update** method of the defined handler:
 
-	//This will show frames for phase 1, the text "Running phase 1" and the progress of the progrssBar will be 0%
+	//This will show frames for phase 1, the text "Running phase 1" 
+	//and the progress of the progressBar will be 0%
+	
 	context.updateProgressBar("PHASE1", "Running phase 1", 0); 
 
 * To finish animations, call the updateMethod with percentage > 100%, or call finishComponent().
