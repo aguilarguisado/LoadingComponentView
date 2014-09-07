@@ -10,6 +10,11 @@ You can also define the mode (blocking/not blocking). In **blocking mode**, the 
 
 In addition, you're allowed to customize the millis between frames and the default image (for phases without backgroundImages). All of this from the constructor of the handler.
 
+##Screenshots
+
+![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot1.png "screenshot1")![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot2.png "screenshot2")  
+
+![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot3.png "screenshot3")![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot4.png "screenshot4")
 
 ## Version 
 * Version 1.0
