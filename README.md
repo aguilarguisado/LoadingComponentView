@@ -12,26 +12,30 @@ In addition, you're allowed to customize the millis between frames and the defau
 
 ##Screenshots
 
-![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot1.png "screenshot1")![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot2.png "screenshot2")  
-
-![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot3.png "screenshot3")![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot4.png "screenshot4")
+![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot1.png "screenshot1")
+![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot2.png "screenshot2")  
+![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot3.png "screenshot3")
+![Screenshot Android](https://github.com/juaagugui/LoadingComponentView/blob/master/art/screenShot4.png "screenshot4")
 
 ## Version 
-* Version 1.0
+* Version 2.0
+
+-Integration with Android Studio structure
+-Refactoring resources and packages
 
 ## How-to use this code
 
 ###Implementation
  * Define the **view** in your .xml layout. For example:
 
-		<mss.loadingComponentView.views.LoadingComponentView
+		<app.juaagugui.loadingcomponent.views.LoadingComponentView
 	        android:id="@+id/loading_component_view"
 	        android:layout_width="400dp"
 	        android:layout_height="400dp"
 	        android:layout_centerHorizontal="true"
 	        android:layout_centerVertical="true" />
 
-* The handler receives a **Map<String, LinkedList<Integer>>** where key are the name of phases and, the list of Integers, the frames for this phase. For example:
+* The handler receives a **Map <String, LinkedList<Integer>>** where key are the name of phases and, the list of Integers, the frames for this phase. For example:
 
 		private Map<String, LinkedList<Integer>> getAnimations() {
 			Map<String, LinkedList<Integer>> retMap = new HashMap<String, LinkedList<Integer>>();
