@@ -20,8 +20,9 @@ In addition, you're allowed to customize the millis between frames and the defau
 ## Version 
 * Version 2.0
 
--Integration with Android Studio structure
--Refactoring resources and packages
+ * Integration with Android Studio structure
+
+ * Refactoring resources and packages
 
 ## How-to use this code
 
