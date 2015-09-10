@@ -36,7 +36,7 @@ In addition, you're allowed to customize the millis between frames and the defau
 	        android:layout_centerHorizontal="true"
 	        android:layout_centerVertical="true" />
 
-* The handler receives a **Map <String, LinkedList<Integer>>** where key are the name of phases and, the list of Integers, the frames for this phase. For example:
+* The handler receives a Map<String, LinkedList<Integer>> where key are the name of phases and, the list of Integers, the frames for this phase. For example:
 
 		private Map<String, LinkedList<Integer>> getAnimations() {
 			Map<String, LinkedList<Integer>> retMap = new HashMap<String, LinkedList<Integer>>();
