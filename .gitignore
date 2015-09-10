@@ -25,3 +25,4 @@ proguard/
 .settings/org.eclipse.jdt.core.prefs
 
 project.properties
+*.iml
